@@ -1,0 +1,27 @@
+<html>
+<body>
+<h1>Upload new Figure</h1>
+<form method="POST" action="upFigure" enctype="multipart/form-data">
+     
+	  Figure category  : <select name="category"> 
+	     <option>History</option>
+	      <option>Museum</option>
+	      <option>Nature</option>
+	      <option>Culture</option>
+	      <option>Food</option>
+	      <option>Shopping</option>
+	      <option>Entertainement</option>
+	      <option>Accomodation</option>
+	   </select>  <br> 
+      Figure Name  : <input type="text" name="name" /> <br> 
+      Figure Location  : <input type="text" name="location" /> <br> 
+      Figure latitude  : <input type="text" name="latitude" /> <br> 
+      Figure longitude  : <input type="text" name="longitude" /> <br> 
+    
+      Figure description  : <input type="text" name="description" /> <br> 
+
+    Image:<input type="file" name="image" accept="image/*" /> <br> 
+    <input type="submit" value="Upload" />
+</form>
+</body>
+</html>
